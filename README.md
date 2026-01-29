@@ -4,11 +4,11 @@ node.js > 22.0
 
 
 
-## 源码安装
+## From source (development)
 
-From source (development)
-Prefer pnpm for builds from source. Bun is optional for running TypeScript directly.
+Prefer `pnpm` for builds from source. Bun is optional for running TypeScript directly.
 
+```bash
 git clone https://github.com/moltbot/moltbot.git
 cd moltbot
 
@@ -20,7 +20,9 @@ pnpm moltbot onboard --install-daemon
 
 # Dev loop (auto-reload on TS changes)
 pnpm gateway:watch
-Note: pnpm moltbot ... runs TypeScript directly (via tsx). pnpm build produces dist/ for running via Node / the packaged moltbot binary.
+```
+
+Note: `pnpm moltbot ...` runs TypeScript directly (via `tsx`). `pnpm build` produces `dist/` for running via Node / the packaged `moltbot` binary.
 
 
 ## TODO
