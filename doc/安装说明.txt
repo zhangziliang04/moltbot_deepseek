@@ -1,0 +1,8 @@
+# 源码安装
+
+moltbot onboard --install-daemon
+
+
+# 
+deepseek 
+sk-e4f7cf8bb66b404db1ef795ff6126db3
